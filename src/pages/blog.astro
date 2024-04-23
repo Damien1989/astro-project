@@ -1,10 +1,8 @@
 ---
-import Navbar from '../components/Navbar.astro';
+import Navbar from "../components/Navbar.astro";
 import Footer from '../components/Footer.astro';
-import '../styles/global.css';
-
-const pageTitle = 'Mon blog';
 ---
+
 <Navbar />
 
 <html lang="en">
@@ -13,18 +11,10 @@ const pageTitle = 'Mon blog';
 		<link rel="icon" type="image/svg +xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{pageTitle}</title>
-		<style>
-			h1 {
-			  color: rgb(18, 52, 221);
-			  font-size: 4rem;
-			}
-		  </style>
+		<title>Astro</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
-	</Footer />
+		<h2>My Blog !</h2>
+        <Footer />
 	</body>
 </html>
-
-
