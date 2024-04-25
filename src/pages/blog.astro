@@ -1,6 +1,7 @@
 ---
 import Navbar from "../components/Navbar.astro";
 import Footer from '../components/Footer.astro';
+import { skillColor } from '../js/data.js';
 import '../styles/global.css';
 ---
 
@@ -15,7 +16,7 @@ import '../styles/global.css';
 		<title>Astro</title>
 	</head>
 	<body>
-		<h2>My Blog !</h2>
+		<h2>My Blog ! {skillColor}</h2>
         <Footer />
 	</body>
 </html>

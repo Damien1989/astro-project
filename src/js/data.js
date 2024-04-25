@@ -7,4 +7,8 @@ const identity = {
   
   const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Symfony"];
 
-  export { identity, skills };
+  const skillColor = "navy";
+ const fontWeight = "bold";
+ const textCase = "uppercase";
+
+  export { identity, skills, skillColor };
